@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "tf-state-spherical-entry-381506"
+    bucket = "spherical-entry-381506-tfstate"
     prefix = "env/dev"
   }
 }
