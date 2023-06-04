@@ -14,5 +14,10 @@
 
 
 terraform {
-  required_version = "~> 1.0.0"
+  # ... other configuration ...
+  required_providers {
+    google = {
+      version = "< 4.0.0"
+    }
+  }
 }
